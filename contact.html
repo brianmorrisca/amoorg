@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Amanda Morris OCT &#8211; Contact</title>
+
+<link rel="stylesheet" href="style.css" type="text/css" title="skin" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+	<div id="container">
+        <a href="index.html"><img src="img/logo-am.jpg" class="am-logo" width="498" height="46" alt="Amanda Morris OCT" /></a>
+        <ul id="am-nav">
+            <li id="amHome"><a href="index.html">Home</a></li>
+            <li id="amPort"><a href="portfolio.html">Portfolio</a></li>
+            <li id="amContact"><a href="#">Contact</a></li>
+        </ul>
+        <div id="contactMain">
+        <br />
+        <br />
+        <br />
+        <br />
+
+        	<div class="contactIntro">
+		        <h1>Contact Amanda</h1>
+                <a href="img/contact-cat.jpg"><img src="img/contact-cat-small.jpg" width="440" height="250" alt="Contact Cat" /></a>
+<p>Please let me know if there is anything you would like to discuss. All messages will be responded to in the order which they are received. Please be patient, I will get back to you.</p>
+
+            </div><!-- End contactIntro -->
+            <div class="contactRight">
+                <h3 class="contactMsg">Let's talk!</h3>
+                
+                <form method="post" enctype="multipart/form-data" action="contact/gadget.php">
+                    <fieldset>
+                        <input type="hidden" name="required" value="username: Name, useremail: Email Address, commentBox: Comment" />
+                        <input type="hidden" name="recipients" value="abruceeMESSTHATATgmail.com" />
+                        <input type="hidden" name="subject" value="AmandaMorris.org Comment" /> <!-- Email Subject Line -->
+                        <input type="hidden" name="good_url" value="contact/success.html" />
+                        <input type="hidden" name="bad_url" value="contact/error.html" />
+    
+                        <div class="input_area">
+                            <label>Name (required)</label><br />
+                            <input class="inputBottom" name="username" type="text" />
+                        </div>
+                        
+                        <div class="input_area">
+                            <label>Email (required)</label><br />
+                            <input class="inputBottom" name="useremail" type="text" />
+                        </div>
+                        
+                        <div class="input_area">
+                            <label>Your Message</label><br />
+                            <textarea name="commentBox" cols="40" rows="10"></textarea>
+                        </div>              
+                    </fieldset>
+                    <div id="buttons">
+                        <input type="submit" value="Send" />
+                        <input name="Reset" type="reset" value="Reset" />
+                    </div>
+                </form>
+			</div><!-- End contactRight -->
+			<div class="clear"></div>           
+        </div><!-- End Main -->
+    </div><!-- End Container -->    
+
+
+</body>
+</html>
