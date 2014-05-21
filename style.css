@@ -12,7 +12,7 @@ h1 { font-size:1.4em; }
 .am-logo { float:left; margin-right: 100px; padding-left:20px;}
 
 
-#container { background-image:url(img/bg-container.jpg); width:1000px; margin:0 auto; padding-top:20px; border-left:1px solid #38235F; border-right:1px solid #38235F; border-bottom:1px solid #38235F;}
+#container { background-image:url(img/bg-container.jpg); width:1000px; margin:0 auto; padding-top:20px; border-left:1px solid #38235F; border-right:1px solid #38235F; border-bottom:1px solid #38235F; overflow:auto;}
 
 
 #top-content { background-image:url(img/mag-grade-2.jpg); height:300px;}
@@ -342,22 +342,24 @@ h1 { font-size:1.4em; }
 #am-portfolio-body { padding:20px; }
 #am-portfolio-body h2 { margin-bottom: 20px; }
 #am-portfolio-body h3 { margin-top:10px; margin-bottom: 10px; }
-#am-portfolio-body p {margin-bottom: 15px; }
-.tpIntro { float:left; width:400px; margin-right:40px; padding-bottom:45px;}
-.tpExperience { float:left; width:520px; margin-bottom: 45px;}
-.tpEducation {float:left; width: 400px; margin-right:40px; }
+#am-portfolio-body p { margin-bottom: 15px; }
+.tpIntro { margin-bottom:45px; }
+.comment { width:75%; }
+
+.tpExperience { margin-bottom: 45px; overflow: auto; }
+.workExpList { }
+.workExpList li { display:inline-block; margin-bottom: 10px; float:left; clear:left;}
+.workExpList i { font-size:0.9em; }
+.workExpList a { display:block; color:#22461E; padding:20px; border: 1px solid #444;}
+.workExpList a:visited { color:#22461E; padding:10px 0 5px 20px; border: 1px solid #444;}
+.workExpList a:hover { color:#C783FF; background-color:#210B33; border: 1px solid #fff;}
+
+.tpEducation { margin-bottom:40px; }
 .tpEducation h3 { color:#2b0a62; font-size:1.05em; line-height:1.3em; }
 .tpEducation p { }
-.tpEducation img { border:1px solid #a4b360; }
-.tpTeachingPhilo {float:left; width:500px; padding-bottom: 55px; }
-.tpTeachingPhilo img {float:right; margin-left:15px; margin-bottom:10px; border:1px solid #a4b360; }
-.tpTeachingStandards {float:left; width:500px; }
-.tpTeachingStandards img {float:right; margin-left: 15px; margin-bottom:10px; border:1px solid #a4b360; }
-.tpPortEnd { margin-bottom:35px; }
-.workExpList { }
-.workExpList li { display:block; margin-bottom: 10px;}
-.workExpList li img {border: 1px solid #333; }
-.workExpList i { font-size:0.9em; }
-.workExpList a {display:block; color:#22461E; padding:10px 5px 5px 30px; border: 1px solid #444;}
-.workExpList a:visited {color:#22461E; padding:10px 0 5px 20px; border: 1px solid #444;}
-.workExpList a:hover {color:#1E4918; background-color:#C1E8E3; border: 1px solid #fff;}
+.tpEducation img { float:right; margin:0 0 20px 20px; border:1px solid #a4b360; }
+
+.tpTeachingPhilo { padding-bottom: 55px; }
+.tpTeachingPhilo img {float:left; margin-right:20px; margin-bottom:20px; border:1px solid #a4b360; }
+.tpTeachingStandards { }
+.tpTeachingStandards img {float:right; margin-left: 20px; margin-bottom:20px; border:1px solid #a4b360; }
