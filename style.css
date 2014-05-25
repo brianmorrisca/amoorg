@@ -189,7 +189,7 @@ p {font-size:0.8em; }
 #help-cl:hover h4 { font-size:2.6em;  }
 #help-cl:hover { background-position: 0 -120px; }
 #help-cl:hover #icon-cl { background-position:0 -120px; }
-#icon-cl { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-piglet.png); background-repeat:no-repeat; background-position:0 0px; }
+#icon-cl { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-monkey.png); background-repeat:no-repeat; background-position:0 0px; }
 
 
 #help-at { float:left; background:url(img/at-bg.png); background-repeat:no-repeat; width:450px; height:120px;  margin-bottom:20px; }
@@ -197,14 +197,14 @@ p {font-size:0.8em; }
 #help-at:hover h4 { font-size:2.6em;  }
 #help-at:hover { background-position: 0 -120px; }
 #help-at:hover #icon-at { background-position:0 -120px; }
-#icon-at { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-winx-club.png); background-repeat:no-repeat; background-position:0 0px; }
+#icon-at { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-spongebob.png); background-repeat:no-repeat; background-position:0 0px; }
 
 #help-ba { float:left; background:url(img/ba-bg.png); background-repeat:no-repeat; width:450px; height:120px; margin-bottom:20px; }
 #help-ba h3 { color:#662d91; margin-bottom:30px; }
 #help-ba:hover h4 { font-size:2.6em;  }
 #help-ba:hover { background-position: 0 -120px; }
 #help-ba:hover #icon-ba { background-position:0 -120px; }
-#icon-ba { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-monkey.png); background-repeat:no-repeat; background-position:0 0px; }
+#icon-ba { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-lego-bunny.png); background-repeat:no-repeat; background-position:0 0px; }
 
 
 #important-dates { float:left; width: 400px; margin:0 0 40px 20px; position:relative;}
@@ -306,7 +306,7 @@ p {font-size:0.8em; }
 #sw-archive p { margin-bottom: 20px; }
 #sw-archive a {position:relative; }
 #sw-archive a img { border: 2px solid #501f8c; margin: 0 25px 20px 0; }
-.past-sw-box {float:left; width: 100px; margin-right: 25px; }
+.past-sw-box {float:left; width: 150px; margin-right: 25px; margin-bottom:20px; }
 
 /* STUDENT OF THE WEEK ARCHIVE PAGE */
 #mag-grade-two-sotw-archive {margin:0 0 50px 370px; clear:both;}
