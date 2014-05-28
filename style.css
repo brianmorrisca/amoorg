@@ -367,6 +367,14 @@ p {font-size:0.8em; }
 .tpTeachingStandards { overflow: auto;}
 .tpTeachingStandards img {float:right; margin-left: 20px; margin-bottom:20px; border:1px solid #38235F; }
 
+/* CLASS WEBSITES PAGE */
+#am-class-websites-body { padding:20px; }
+#am-class-websites-body article {overflow: auto; margin-bottom:20px; }
+#am-class-websites-body img { float:left; margin-right:20px; }
+#am-class-websites-body h2 { margin-bottom: 20px; }
+#am-class-websites-body h3 { margin-top:10px; margin-bottom: 10px; }
+
+
 .rounded-corners {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
