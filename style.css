@@ -189,7 +189,7 @@ p {font-size:0.8em; }
 #help-cl:hover h4 { font-size:2.6em;  }
 #help-cl:hover { background-position: 0 -120px; }
 #help-cl:hover #icon-cl { background-position:0 -120px; }
-#icon-cl { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-monkey.png); background-repeat:no-repeat; background-position:0 0px; }
+#icon-cl { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-dumbo.png); background-repeat:no-repeat; background-position:0 0px; }
 
 
 #help-at { float:left; background:url(img/at-bg.png); background-repeat:no-repeat; width:450px; height:120px;  margin-bottom:20px; }
@@ -197,14 +197,14 @@ p {font-size:0.8em; }
 #help-at:hover h4 { font-size:2.6em;  }
 #help-at:hover { background-position: 0 -120px; }
 #help-at:hover #icon-at { background-position:0 -120px; }
-#icon-at { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-spongebob.png); background-repeat:no-repeat; background-position:0 0px; }
+#icon-at { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-piglet.png); background-repeat:no-repeat; background-position:0 0px; }
 
 #help-ba { float:left; background:url(img/ba-bg.png); background-repeat:no-repeat; width:450px; height:120px; margin-bottom:20px; }
 #help-ba h3 { color:#662d91; margin-bottom:30px; }
 #help-ba:hover h4 { font-size:2.6em;  }
 #help-ba:hover { background-position: 0 -120px; }
 #help-ba:hover #icon-ba { background-position:0 -120px; }
-#icon-ba { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-lego-bunny.png); background-repeat:no-repeat; background-position:0 0px; }
+#icon-ba { float:left; width:240px; height:120px; margin-right:20px; background-image:url(img/icon-winx-club.png); background-repeat:no-repeat; background-position:0 0px; }
 
 
 #important-dates { float:left; width: 400px; margin:0 0 40px 20px; position:relative;}
@@ -294,6 +294,8 @@ p {font-size:0.8em; }
 #science-structure img.sci-structure-day7 { margin:0px 40px 40px 0px; }
 #science-structure img.sci-structure-day8 { margin:0px 40px 40px 0px; }
 #science-structure img.sci-structure-day10 { margin:0px 40px 40px 0px; }
+#science-structure img.sci-structure-day11 { margin:0px 40px 40px 0px; }
+#science-structure img.sci-structure-day12 { margin:0px 40px 40px 0px; }
 .sci-pic {float:right; }
 #science-archive-link { float:right; margin:0px 0 40px 60px; font-weight:bold; padding:5px; background-color:#fffbc9; border:3px solid #662d91; box-shadow: 2px 2px 5px #888888;}
 
