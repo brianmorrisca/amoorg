@@ -335,7 +335,7 @@ p {font-size:0.8em; }
 #games-container img { float:right; }
 #games-container h2 {color:#662d91; margin-bottom:20px; padding-bottom:10px;  border-bottom:1px solid #662d91;}
 #games-container a  { display:block; margin-bottom:10px; }
-.game-block { width:1000px; float:left; margin-bottom:30px; }
+.game-block { width:970px; float:left; margin-bottom:30px; }
 .game-block img { float:right; margin-right:50px; } 
 
 .clear {clear:both;}
