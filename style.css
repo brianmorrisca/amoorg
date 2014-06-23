@@ -233,7 +233,7 @@ p {font-size:0.8em; }
 /* CONTACT PAGE */
 #logo-contact { float:left; margin:0 180px 50px 20px;}
 #mag-grade-two-contact {margin:0 0 50px 370px; clear:both;}
-#contactMain { width:1000px; margin:15px 0 0 20px; clear:both; }
+#contactMain { width:980px; margin:15px 0 0 20px; clear:both; }
 .contactIntro { float:left; width:442px; margin-right:98px; }
 .contactIntro h1 { font-size:1.2em; color:#662d91; margin-bottom:20px;  padding-bottom:10px;  border-bottom:1px solid #662d91;}
 .contactIntro img { margin-bottom:35px; border:1px solid #662d91; box-shadow: 5px 5px 6px #888888;}
